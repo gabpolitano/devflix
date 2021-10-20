@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFlix</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="page-title">
+            Devflix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+        <p class="page-subtitle">
+            Qual seu filme favorito?
+        </p>
+
+        <p class="subtitulo">Entre no <a href="https://www.imdb.com" target="_blank">IMDb</a>, escolha um filme, copia e
+            cola o endereço da imagem abaixo!</p>
+
+        <div class="form-wrapper">
+            <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+            <button onClick="adicionarFilme()">Adicionar Filme</button>
+        </div>
+    </div>
+
+    <div id="listaFilmes"></div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+    <script src="js/filmes-favoritos.js"></script>
+    <h1></h1>
+
+    <h1 id="filmes-brasileiros">Brasileiros</h1>
+    <script src="js/filmes-brasileiros.js"></script>
+
+    <h1 id="filmes-de-terror">Terror</h1>
+    <script src="js/filmes-de-terror.js"></script>
+
+    <h1 id="filmes-de-comedia">Comédias</h1>
+    <script src="js/filmes-de-comedia.js"></script>
+
+    <h1 id="filmes-de-suspense">Suspense</h1>
+    <script src="js/filmes-de-suspense.js"></script>
+
+    <h1 id="filmes-de-romance">Romance</h1>
+    <script src="js/filmes-de-romace.js"></script>
+
+</body>
+
+</html>
